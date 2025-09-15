@@ -128,7 +128,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <h3>Avances Destacados</h3>
                 <ul>
-                    <li>El proyecto "Reparación Largo Plazo Celda 2" ha alcanzado un 99,5% de avance real.</li>
+                    <li>Estudio Automatización Control Boca Toma Agua Planta: 95%</li>
+                    <li>Iniciativa Reemplazar Transformador de Poder T1 y T2: 70%</li>
+                    <li>Proyecto Reparación Largo Plazo Celda 2: 99,5%</li>
+                    <li>Reemplazar Transformador de Poder T1 y T2 por Transformador de 25 MVA: 70%</li>
+                    <li>Estudio Integridad L2: 30%</li>
+                    <li>Modificaciones de Condiciones para dar Cumplimiento al EOC: 95%</li>
+                    <li>Medición Fasorial - Generador TG4/5 y Generador TG8: 2%</li>
                 </ul>
 
                 <h3>Alertas</h3>
@@ -272,7 +278,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <h3>Avances Destacados</h3>
                 <ul>
-                    <li>El proyecto "Reconstrucción Stacker Astillas Área Maderas" presenta un 89% de avance.</li>
+                    <li>Implementación Protecciones de Fuga a Tierra Cerca de Cargas Eléctricas: 100%</li>
+                    <li>Implementación Sistema Detección y Extinción Incendios en Correas de Preparación Maderas: 15%</li>
+                    <li>Centro de Valorización de Residuos: 79%</li>
+                    <li>Nuevo Filtro Licor Verde Caustificación: 90%</li>
+                    <li>Mejora en Sistema de Alimentación Biomasa a 100% Eucalipto: 25%</li>
+                    <li>Reconstrucción Stacker Astillas Área Maderas: 89%</li>
+                    <li>Incremento de Capacidad Torres de Enfriamiento: 77%</li>
+                    <li>Solución LP 63 Bombas Alta Vibración: 100%</li>
                 </ul>
 
                 <h3>Alertas</h3>
@@ -458,7 +471,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <h3>Avances Destacados</h3>
                 <ul>
-                    <li>La iniciativa "Reemplazo Harneros Inferiores Digestores" ha finalizado con un 100% de avance.</li>
+                    <li>Estudio Upgrade Centrales Hidráulicas Prensas Húmedas: 95%</li>
+                    <li>Reacondicionamiento Nave de Máquina: 18%</li>
+                    <li>Reemplazo Harneros Inferiores Digestores: 100%</li>
+                    <li>Normalización de Tableros de Media y Baja Tensión: 28%</li>
                 </ul>
 
                 <h3>Alertas</h3>
@@ -632,7 +648,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <h3>Avances Destacados</h3>
                 <ul>
-                    <li>El proyecto "Implementación Sistema SCADA" mantiene un avance del 80,6%, alineado con lo planificado.</li>
+                    <li>Ampliación de Bodega E de Motores Eléctricos: (Estudio)</li>
+                    <li>Producción Pino Pino: Postergado</li>
+                    <li>Reemplazo Economizador Caldera Recuperadora: Oferta recibida.</li>
+                    <li>Upgrade Prensa D2 Fibra L1: Postergado a PGP 2026.</li>
+                    <li>Reemplazo Uniones Enflanchadas Emisario Etapa IV: Adjudicado.</li>
+                    <li>Modificación Emisario Atravieso Bajo Estero Batuco: Adjudicado.</li>
+                    <li>Implementación Sistema SCADA: 80,6%</li>
                 </ul>
 
                 <h3>Alertas</h3>
@@ -746,7 +768,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 <h3>Avances Destacados</h3>
                 <ul>
-                    <li>El proyecto "Nuevo Concentrador 1D" presenta un avance del 78% real, aunque se identifican riesgos de sobrecosto.</li>
+                    <li>Nuevo Concentrador 1D: 78% (Riesgo de sobrecosto)</li>
+                    <li>Prueba Piloto IP3 + TCF (MAT + Tk Descarga): 72%</li>
+                    <li>Ampliación Sistema SCADA: 95%</li>
+                    <li>Instalación de Equipo de Medición Fasorial: 15%</li>
+                    <li>Reemplazo de Sobrecalentador Secundario de la Caldera de Poder: (Iniciativa) 5%</li>
                 </ul>
 
                 <h3>Alertas</h3>

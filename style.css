@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f9;
@@ -131,4 +130,14 @@ h1 {
     width: 100%;
     height: 600px;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .plantas-nav {
+        flex: 0 0 auto;
+    }
 }
