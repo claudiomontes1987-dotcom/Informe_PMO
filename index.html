@@ -4,40 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard de Informes Mensuales</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Dashboard de Informes Mensuales</h1>
-        <div class="main-layout">
-            <div class="plantas-nav">
-                <h2>Plantas</h2>
-                <ul>
-                    <li data-informe="arauco-l2" data-pdf="Inf. Mensual Pta. Arauco L2 Ago.25-Rev. 0.pdf">Arauco L2</li>
-                    <li data-informe="arauco-l3" data-pdf="Inf. Mensual Pta. Arauco L3 Ago.25-Rev. 0.pdf">Arauco L3</li>
-                    <li data-informe="constitucion" data-pdf="Inf. Mensual Pta. Constitucion Ago.25-Rev. 0.pdf">Constitución</li>
-                    <li data-informe="nueva-aldea" data-pdf="Inf. Mensual Pta. Nueva Aldea Ago 25-Rev. 0.pdf">Nueva Aldea</li>
-                    <li data-informe="valdivia" data-pdf="Inf. Mensual Pta. Valdivia Ago. 25-Rev. 0.pdf">Valdivia</li>
+    <div class="app-shell">
+        <header class="app-header">
+            <div class="branding">
+                <span class="badge">PMO</span>
+                <h1>Dashboard de Informes Mensuales</h1>
+                <p class="subtitle">Un vistazo ejecutivo a los avances, alertas y documentación oficial de cada planta.</p>
+            </div>
+            <div class="header-meta">
+                <div class="current-plant">
+                    <span class="label">Planta seleccionada</span>
+                    <span id="plant-name">&nbsp;</span>
+                </div>
+                <div class="header-actions">
+                    <a id="download-pdf" class="ghost-button" href="#" download>Descargar PDF</a>
+                    <button id="open-pdf" class="primary-button" type="button">Abrir en nueva pestaña</button>
+                </div>
+            </div>
+        </header>
+        <div class="layout">
+            <aside class="sidebar">
+                <div class="sidebar-head">
+                    <h2>Plantas</h2>
+                    <p>Selecciona una planta para cargar su resumen y el informe oficial.</p>
+                </div>
+                <ul class="plant-list">
+                    <li data-label="Arauco L2" data-informe="arauco-l2" data-pdf="../app_informes/informes/Inf. Mensual Pta. Arauco L2 Ago.25-Rev. 0.pdf">Arauco L2</li>
+                    <li data-label="Arauco L3" data-informe="arauco-l3" data-pdf="../app_informes/informes/Inf. Mensual Pta. Arauco L3 Ago.25-Rev. 0.pdf">Arauco L3</li>
+                    <li data-label="Constitución" data-informe="constitucion" data-pdf="../app_informes/informes/Inf. Mensual Pta. Constitucion Ago.25-Rev. 0.pdf">Constitución</li>
+                    <li data-label="Nueva Aldea" data-informe="nueva-aldea" data-pdf="../app_informes/informes/Inf. Mensual Pta. Nueva Aldea Ago 25-Rev. 0.pdf">Nueva Aldea</li>
+                    <li data-label="Valdivia" data-informe="valdivia" data-pdf="../app_informes/informes/Inf. Mensual Pta. Valdivia Ago. 25-Rev. 0.pdf">Valdivia</li>
                 </ul>
-            </div>
-            <div class="content">
-                <div class="informes-container">
-                    <div class="informe" id="arauco-l2">
-                        *Seguridad y medio ambiente:* Cero accidentes CTP y STP. 5 observaciones de seguridad. Inspecciones ambientales OK.
-                        *Plan de inversiones:* Capex Planta: 85% ejecutado. Opex: Gasto controlado.
-                        *Estudios y proyectos:* Optimización de caldera de recuperación. Nuevo sistema de control de emisiones.
-                        *Avances Destacados:* Proyecto de reducción de consumo de agua al 70%. Capacitación en nueva plataforma de mantenimiento al 95%.
-                        *Alertas:* Riesgo de retraso en entrega de repuestos críticos para digestor.
+            </aside>
+            <main class="main-content">
+                <section class="info-card">
+                    <div class="section-header">
+                        <h2>Resumen ejecutivo</h2>
+                        <span id="section-badge" class="section-badge">&nbsp;</span>
                     </div>
-                    <!-- Repetir para otras plantas -->
-                </div>
-                <div class="pdf-viewer">
-                    <h2>Visualizador de PDF</h2>
-                    <iframe id="pdf-frame" src="informes/Inf. Mensual Pta. Arauco L2 Ago.25-Rev. 0.pdf" width="100%" height="500px"></iframe>
-                </div>
-            </div>
+                    <div id="informe-body" class="informe-body"></div>
+                </section>
+                <section class="pdf-card">
+                    <div class="pdf-card-header">
+                        <div>
+                            <h2>Visualizador de PDF</h2>
+                            <span id="pdf-filename" class="filename">&nbsp;</span>
+                        </div>
+                    </div>
+                    <iframe id="pdf-frame" title="Informe mensual" src="" loading="lazy"></iframe>
+                </section>
+            </main>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
