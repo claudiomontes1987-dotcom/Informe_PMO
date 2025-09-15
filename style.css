@@ -1,0 +1,134 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.plantas-nav {
+    flex: 0 0 200px;
+}
+
+.plantas-nav h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+.plantas-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plantas-nav li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+}
+
+.plantas-nav li:hover, .plantas-nav li.active {
+    background-color: #e6f7ff;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+}
+
+.informe {
+    background: #fdfdff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #0056b3;
+}
+
+.informe h3 {
+    color: #0056b3;
+    border-bottom: 2px solid #eef5ff;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+.informe ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.informe ul li {
+    background: #eef5ff;
+    margin-bottom: 8px;
+    padding: 12px;
+    border-radius: 4px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.informe ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.proyectos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.proyectos-table th, .proyectos-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.proyectos-table th {
+    background-color: #0056b3;
+    color: white;
+}
+
+.proyectos-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.pdf-viewer {
+    margin-top: 20px;
+}
+
+.pdf-viewer h2 {
+    color: #0056b3;
+}
+
+#pdf-frame {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+}
